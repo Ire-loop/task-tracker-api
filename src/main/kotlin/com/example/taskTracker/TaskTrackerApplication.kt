@@ -4,8 +4,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
 @SpringBootApplication
-class TaskTrackerApiApplication
+class TaskTrackerApplication
 
 fun main(args: Array<String>) {
-    runApplication<TaskTrackerApiApplication>(*args)
+    runApplication<TaskTrackerApplication>(*args)
 }
